@@ -3,7 +3,8 @@ import size
 
 
 class Race(lang.Common):
-    pass
+    def literacy(self):
+        return True
 
 class Elf(lang.Elvish):
     pass
